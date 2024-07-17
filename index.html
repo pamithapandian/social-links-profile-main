@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+    *{
+      padding: 0;
+      margin:0;
+      font-family:"Inter", sans-serif;;
+    }
+    body{
+      width:100vw;
+      height:100vh;
+      background-color: hsl(0, 0%, 8%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container{
+      height:650px;
+      width:550px;
+      background-color: hsl(0, 0%, 12%);
+      display: flex;
+      flex-direction: column;
+      border-radius: 25px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      justify-content: space-between;
+    
+    }
+    .container .img img{
+      width:115px;
+      height:115px;
+      border-radius: 50%;
+    }
+    .container .info h1{
+      color:hsl(0, 0%, 100%);
+    } 
+    .container .info h4{
+     color: hsl(75, 94%, 57%);
+    } 
+    p{
+     color: hsl(0, 0%, 100%);
+    }
+    .btnbox{
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+      justify-content: space-between;
+      gap:10px;
+    }
+    .btnbox .btn{
+      width:300px;
+      height:60px;
+      background-color: hsl(0, 0%, 20%);
+      color:hsl(0, 0%, 100%);
+      border-radius: 10px;
+    }
+    .btnbox .btn:hover{
+      background-color: hsl(75, 94%, 57%);
+      color: hsl(0, 0%, 12%);
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="img">
+      <img src="C:\Users\pamit\OneDrive\Desktop\css\social-links-profile-main\assets\images\avatar-jessica.jpeg">
+    </div>
+    <div class="info">
+      <h1>Jessica Randall</h1>
+      <h4>London, United Kingdom</h4>
+    </div>
+    <div>
+      <p>"Front-end developer and avid reader."</p>
+    </div>
+    <div class="btnbox">
+      <a href="#"><button class="btn">GitHub</button></a>
+      <a href="#"><button class="btn">Frontend Mentor</button></a>
+      <a href="#"><button class="btn">LinkedIn</button></a>
+      <a href="#"><button class="btn">Twitter</button>
+      </a><a href="#"><button class="btn">Instagram</button></a>
+    </div>
+  </div>
+</body>
+</html>
